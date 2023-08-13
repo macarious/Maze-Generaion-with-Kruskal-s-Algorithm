@@ -6,9 +6,9 @@
 
 This repository contains a Python program that utilizes Tkinter to visualize Kruskal's Algorithm for maze generation. The program generates mazes by applying Kruskal's algorithm, producing a labyrinth of interconnected cells represented in a 2D array. Each cell can be either a wall or a passage, and the algorithm's objective is to connect all cells by progressively removing walls between them.
 
-<img src="https://github.com/macarious/Maze-Generaion-with-Kruskal-s-Algorithm/assets/63441014/37949e9c-f4a0-4399-9b76-04d24b0d3ee7" alt="Sample Generated Maze 1" width="300" />
-<img src="https://github.com/macarious/Maze-Generaion-with-Kruskal-s-Algorithm/assets/63441014/4201affa-7fef-42af-ab56-96a77106dd56" alt="Sample Generated Maze 2" width="300" />
-<img src="https://github.com/macarious/Maze-Generaion-with-Kruskal-s-Algorithm/assets/63441014/1464cb02-4c18-4432-98db-8f0c6a260877" alt="Sample Generated Maze 3" width="300" />
+<img src="https://github.com/macarious/Maze-Generaion-with-Kruskal-s-Algorithm/assets/63441014/37949e9c-f4a0-4399-9b76-04d24b0d3ee7" alt="Sample Generated Maze 1" width="200" />
+<img src="https://github.com/macarious/Maze-Generaion-with-Kruskal-s-Algorithm/assets/63441014/4201affa-7fef-42af-ab56-96a77106dd56" alt="Sample Generated Maze 2" width="200" />
+<img src="https://github.com/macarious/Maze-Generaion-with-Kruskal-s-Algorithm/assets/63441014/1464cb02-4c18-4432-98db-8f0c6a260877" alt="Sample Generated Maze 3" width="200" />
 
 Kruskal's Algorithm starts with a grid of passages and walls. It iteratively removes walls between cells, ensuring that all cells become interconnected. This removal process involves randomly selecting a wall and verifying whether the cells on either side of the wall are already connected. If they are not connected, the wall is removed, and the cells are united. If the cells are already linked, the wall remains intact. This process continues until all cells are interlinked, creating a coherent maze.
 
