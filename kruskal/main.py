@@ -1,5 +1,5 @@
 '''
-CS 5800 Maze Generation with Kruskal's Algorithm
+Maze Generation with Kruskal's Algorithm
 Author: HUI, Macarious Kin Fung
 
 This program generates a maze using Kruskal's algorithm. The maze is represented
@@ -30,12 +30,16 @@ from kruskal_maze import KruskalMaze
 
 
 def main():
-    width = int(input('Width: '))
-    height = int(input('Height: '))
-    if width < 1 or height < 1:
-        print('Error: Invalid maze dimensions.')
+    user_width = int(input('Width: '))
+    user_height = int(input('Height: '))
+    if user_width < 3 or user_height < 3 or user_width % 2 == 0 or user_height % 2 == 0:
+        print('Error: Invalid maze dimensions. Dimensions must be greater than or equal to 3 and odd.')
         sys.exit()
 
+    # The initial number of passage cells in the x direction.
+    width = (user_width + 1) // 2
+    # The initial number of passage cells in the y direction.
+    height = (user_height + 1) // 2
     KruskalMaze(width, height)
 
 

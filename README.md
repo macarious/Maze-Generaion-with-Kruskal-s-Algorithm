@@ -24,7 +24,7 @@ The generated maze is visually presented using Tkinter, with each set of connect
 
 ### Initial State
 
-At the beginning of the maze generation process, all cells are separated by walls, and each cell is considered its own set. This means that no cell is initially connected to any other cell.
+At the beginning of the maze generation process, all cells are separated by walls, and each cell is considered its own set. This means that no cell is initially connected to any other cell. Note that the cell dimensions must be greater than 3 and odd.
 
 ![Initial State](https://github.com/macarious/Maze-Generaion-with-Kruskal-s-Algorithm/assets/63441014/6852d2bf-c0d2-4293-93c6-89a2b6e02578)
 
